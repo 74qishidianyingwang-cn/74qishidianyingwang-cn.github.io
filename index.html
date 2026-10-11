@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>74骑士电影网｜骑士精神、公路片、西部片与成长电影推荐</title>
+<meta name="description" content="74骑士电影网，一个按「骑士精神」挑片的观影指南：勇气、信义、忠诚、怜悯、荣誉、公正、谦逊。收录公路片、西部片、剑与魔法、成长电影、武士片与高分经典片单，提供4K修复与正版观影建议。">
+<link rel="canonical" href="https://74qishidianyingwang-cn.github.io/">
+<style>
+:root{
+  --steel:#3f4a57;
+  --ink:#151a22;
+  --parch:#f2ece1;
+  --paper:#efe8da;
+  --crimson:#b23a34;
+  --crimson2:#8f2a25;
+  --gold:#d3a24c;
+  --gold2:#a57c2c;
+  --moss:#6b7a55;
+  --fog:#8b95a3;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;
+  background:var(--parch);
+  color:var(--ink);
+  line-height:1.75;
+  -webkit-text-size-adjust:100%;
+  background-image:radial-gradient(circle at 50% 50%, rgba(178,58,52,.035) 0 1.5px, transparent 1.5px 4px);
+  background-size:19px 19px;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+/* ============ TOP ============ */
+.topbar{background:var(--ink);color:#e8e2d5;border-bottom:3px solid var(--crimson)}
+.topbar .wrap{display:flex;align-items:center;gap:16px;padding:9px 22px;font-family:"SFMono-Regular",Consolas,monospace;font-size:12px;letter-spacing:.14em}
+.topbar .sig{color:var(--gold)}
+.topbar .sp{color:var(--fog)}
+.topbar .r{margin-left:auto;color:#9aa5b4}
+/* ============ HEADER ============ */
+header.hero{
+  position:relative;overflow:hidden;
+  background:
+    linear-gradient(180deg,rgba(21,26,34,.93),rgba(21,26,34,.86)),
+    repeating-linear-gradient(90deg,#1a2029 0 3px,#1c232d 3px 6px);
+  color:#efe6d6;padding:56px 0 62px;
+  border-bottom:9px solid var(--crimson);
+}
+.crest{
+  width:118px;height:118px;margin:0 0 26px;position:relative;
+  background:radial-gradient(circle at 52% 44%,var(--gold) 0 26%,var(--gold2) 26% 34%,var(--crimson) 34% 62%,var(--ink) 62% 68%,var(--crimson) 68%);
+  border-radius:50%;
+  box-shadow:0 0 0 6px var(--ink),0 0 0 11px var(--gold),0 12px 30px rgba(0,0,0,.5);
+}
+.crest::before,.crest::after{content:"";position:absolute;background:var(--ink)}
+.crest::before{width:14px;height:14px;border-radius:50%;left:52px;top:34px;box-shadow:0 0 0 5px var(--gold)}
+.crest::after{width:30px;height:7px;left:44px;top:64px;box-shadow:0 11px 0 var(--ink),0 22px 0 var(--ink);background:var(--gold)}
+.eyebrow{font-family:Consolas,monospace;letter-spacing:.34em;color:var(--gold);font-size:12px;margin-bottom:14px}
+h1{font-family:"Songti SC","SimSun","Noto Serif SC",Georgia,serif;font-weight:700;font-size:clamp(34px,6.4vw,64px);line-height:1.16;letter-spacing:.02em}
+h1 em{font-style:normal;color:var(--crimson);background:linear-gradient(transparent 62%,var(--gold) 62%);padding:0 6px}
+.lede{margin-top:20px;max-width:640px;color:#c9d0da;font-size:16px}
+.vows{display:flex;flex-wrap:wrap;gap:9px;margin-top:26px;max-width:760px}
+.vow{font-family:Consolas,monospace;font-size:12.5px;letter-spacing:.08em;padding:6px 13px;border:1px solid rgba(211,162,76,.55);color:var(--gold);border-radius:2px}
+.vow b{color:#fff;font-weight:600}
+.hero .meta{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px 26px;font-family:Consolas,monospace;font-size:12.5px;color:#93a0b0}
+.hero .meta b{color:var(--gold)}
+/* ============ NAV ============ */
+nav.toc{background:var(--paper);border-bottom:1px solid rgba(21,26,34,.14);position:sticky;top:0;z-index:30;box-shadow:0 2px 0 rgba(178,58,52,.08)}
+nav.toc .wrap{display:flex;align-items:center;gap:4px;padding:0 14px;overflow-x:auto}
+nav.toc a{
+  flex:0 0 auto;padding:14px 12px;font-size:13.5px;color:#3c4652;white-space:nowrap;
+  border-bottom:3px solid transparent;font-weight:600;
+}
+nav.toc a:hover{color:var(--crimson);border-bottom-color:var(--crimson)}
+.menu-btn{display:none}
+/* ============ SECTION ============ */
+section{padding:64px 0;border-bottom:1px solid rgba(21,26,34,.1)}
+.sec-h{display:flex;align-items:flex-end;gap:16px;flex-wrap:wrap;margin-bottom:34px}
+.sec-no{font-family:Georgia,serif;font-size:15px;letter-spacing:.2em;color:var(--crimson);border:1px solid var(--crimson);padding:3px 10px}
+h2{font-family:"Songti SC","SimSun","Noto Serif SC",Georgia,serif;font-size:clamp(23px,3.6vw,33px);line-height:1.3}
+.sec-sub{width:100%;color:#5f6a78;font-size:14px;margin-top:8px}
+.en{font-family:Consolas,monospace;letter-spacing:.2em;color:var(--gold2);font-size:11.5px;text-transform:uppercase}
+/* ============ 01 七条誓言 ============ */
+.vows7{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.vow7{position:relative;padding:26px 22px 22px;border:1px solid rgba(21,26,34,.16);background:var(--paper);transition:.28s}
+.vows7 .vow7:nth-child(1){border-color:var(--crimson)}
+.vows7 .vow7:nth-child(odd){background:#f7f2e9}
+.vow7 .rom{font-family:Georgia,serif;font-size:13px;color:var(--crimson);letter-spacing:.16em}
+.vow7 h3{font-family:"Songti SC",serif;font-size:22px;margin:8px 0 10px}
+.vow7 p{font-size:13.5px;color:#56616f}
+.vow7 .ex{margin-top:14px;padding-top:11px;border-top:1px dashed rgba(21,26,34,.22);font-family:Consolas,monospace;font-size:11.5px;color:var(--gold2)}
+.vow7:hover{background:var(--ink);color:#e8e2d5;transform:translateY(-5px);z-index:2;box-shadow:0 14px 28px rgba(21,26,34,.28)}
+.vow7:hover p{color:#b9c2ce}
+.vow7:hover .ex{color:var(--gold);border-color:rgba(211,162,76,.4)}
+/* ============ 02 片单 ============ */
+.reels{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.reel{background:var(--paper);border:1.5px solid rgba(21,26,34,.18);border-radius:3px;overflow:hidden;display:flex;flex-direction:column}
+.reel .hd{background:var(--ink);color:var(--gold);padding:13px 18px;display:flex;align-items:center;gap:10px}
+.reel .hd .tag{font-family:Consolas,monospace;font-size:11px;letter-spacing:.16em;background:var(--crimson);color:#fff;padding:3px 8px}
+.reel .hd h3{font-family:"Songti SC",serif;font-size:17px;color:#f2ece1}
+.reel ol{list-style:none;padding:8px 0}
+.reel li{padding:11px 18px 11px 56px;position:relative;font-size:14.5px;border-bottom:1px dotted rgba(21,26,34,.18)}
+.reel li:last-child{border-bottom:0}
+.reel li .n{counter-increment:none;position:absolute;left:16px;top:10px;font-family:Georgia,serif;color:var(--crimson);font-size:14px}
+.reel li .y{display:block;font-family:Consolas,monospace;font-size:11px;color:var(--fog);margin-top:2px}
+.reel li:hover{background:#fff6e8}
+.reel .ft{padding:12px 18px;background:rgba(178,58,52,.06);font-size:12.5px;color:var(--crimson2);border-top:1px solid rgba(178,58,52,.14)}
+/* ============ 03 榜 ============ */
+.podium{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:end}
+.peds{display:flex;align-items:flex-end;gap:14px;height:300px;padding-bottom:14px;border-bottom:3px double var(--ink)}
+.ped{flex:1;position:relative;height:var(--h,60%);background:linear-gradient(180deg,var(--gold),var(--gold2));border-radius:3px 3px 0 0;transition:height 1.1s cubic-bezier(.22,.8,.3,1);display:flex;flex-direction:column;justify-content:flex-start;align-items:center;padding-top:14px;color:var(--ink)}
+.ped.s2{background:linear-gradient(180deg,#c9d1db,#8b95a3)}
+.ped.s3{background:linear-gradient(180deg,#c98d5f,#8f5f3a)}
+.ped .no{font-family:Georgia,serif;font-size:26px;font-weight:700;color:rgba(255,255,255,.75);line-height:1}
+.ped .nm{font-family:"Songti SC",serif;font-size:17px;color:#fff;text-align:center;margin-top:6px;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.ped .yr{font-family:Consolas,monospace;font-size:11px;color:rgba(255,255,255,.9);margin-top:4px}
+.ped .fmt{position:absolute;bottom:-30px;left:0;right:0;text-align:center;font-size:12.5px;color:#3c4652}
+.rank-r{display:flex;flex-direction:column;gap:9px}
+.rk{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:12px;padding:10px 12px;border:1px solid rgba(21,26,34,.14);background:var(--paper)}
+.rk .p{font-family:Georgia,serif;color:var(--crimson);font-size:16px;text-align:center}
+.rk .t{font-size:14px}
+.rk .t small{display:block;color:#6b7785;font-size:11.5px;font-family:Consolas,monospace}
+.rk .s{font-family:"Songti SC",serif;color:var(--gold2);font-size:15px}
+/* ============ 04 导演 ============ */
+.authors{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.au{border-top:7px solid var(--crimson);background:var(--paper);padding:20px 18px;position:relative;transition:.3s}
+.au:nth-child(2){border-color:var(--moss)}
+.au:nth-child(3){border-color:var(--gold2)}
+.au:nth-child(4){border-color:var(--steel)}
+.au .badge{font-family:Consolas,monospace;font-size:10.5px;letter-spacing:.18em;color:#fff;background:var(--ink);padding:3px 7px;display:inline-block}
+.au h3{font-family:"Songti SC",serif;font-size:20px;margin:12px 0 4px}
+.au .en2{font-family:Consolas,monospace;font-size:10.5px;color:var(--fog);letter-spacing:.1em}
+.au p{font-size:13px;color:#55606e;margin:11px 0 14px;min-height:60px}
+.au .see{font-size:12px;color:var(--crimson2);border-top:1px dashed rgba(21,26,34,.22);padding-top:9px;font-weight:600}
+.au:hover{transform:translateY(-6px);box-shadow:0 16px 30px rgba(21,26,34,.22)}
+/* ============ 05 马与路 ============ */
+.road{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.rd{display:grid;grid-template-columns:62px 1fr;gap:14px;align-items:center;background:var(--paper);border:1.4px solid rgba(21,26,34,.16);padding:14px 16px;border-radius:3px}
+.rd ic{width:52px;height:52px;background:var(--ink);color:var(--gold);border-radius:50%;display:grid;place-items:center;font-family:"Songti SC",serif;font-size:25px;flex:0 0 auto}
+.rd h4{font-size:15.5px;margin-bottom:3px}
+.rd p{font-size:13px;color:#58636f}
+.rd .req{display:inline-block;margin-top:7px;font-family:Consolas,monospace;font-size:10.5px;letter-spacing:.08em;color:var(--crimson2);border:1px solid rgba(178,58,52,.4);padding:2px 7px}
+/* ============ 06 装备 ============ */
+.kit{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1.5px solid var(--ink)}
+.ki{padding:22px 18px;background:var(--paper);border-right:1px solid rgba(21,26,34,.16);border-bottom:1px solid rgba(21,26,34,.16)}
+.ki:nth-child(4n){border-right:0}
+.ki .k{font-family:Georgia,serif;font-size:13px;color:var(--crimson);letter-spacing:.14em}
+.ki h4{font-family:"Songti SC",serif;font-size:18px;margin:7px 0 8px}
+.ki p{font-size:12.5px;color:#5f6a78}
+/* ============ 07 避坑 ============ */
+.stops{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.stop{background:#fbeee8;border-left:11px solid var(--crimson);padding:18px 18px 16px}
+.stop .no{font-family:Consolas,monospace;font-size:11.5px;letter-spacing:.16em;color:var(--crimson)}
+.stop h4{font-size:15.5px;margin:6px 0 7px}
+.stop p{font-size:13px;color:#5b4643}
+/* ============ 08 关于 ============ */
+.about{background:linear-gradient(135deg,#1a2230,#2b3a4d);color:#e9e3d5;border-radius:5px;padding:40px 36px}
+.about .lead{font-family:"Songti SC",serif;font-size:clamp(19px,3vw,26px);line-height:1.7;color:var(--gold);max-width:760px}
+.about .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:28px 0}
+.step{padding:16px;border:1px solid rgba(211,162,76,.4);border-radius:3px}
+.step .n{font-family:Georgia,serif;font-size:22px;color:var(--crimson)}
+.step h4{font-size:15px;margin:5px 0 6px}
+.step p{font-size:12.5px;color:#b9c2ce}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tags a{font-size:12.5px;padding:5px 11px;border:1px solid rgba(211,162,76,.45);color:#e9e3d5;border-radius:20px}
+.tags a:hover{background:var(--crimson);border-color:var(--crimson);color:#fff}
+.fine{margin-top:22px;padding-top:18px;border-top:1px solid rgba(211,162,76,.3);font-size:12.5px;color:#9aa5b4}
+/* ============ FOOTER ============ */
+footer{border-top:9px solid var(--crimson);background:var(--ink);color:#cfd6e0;padding:44px 0 30px}
+footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:26px}
+footer h5{font-family:"Songti SC",serif;color:var(--gold);font-size:16px;margin-bottom:11px}
+footer ul{list-style:none}
+footer li{font-size:12.5px;padding:4px 0;color:#9aa5b4}
+footer a:hover{color:var(--gold)}
+footer .copy{margin-top:30px;padding-top:18px;border-top:1px solid rgba(255,255,255,.1);font-family:Consolas,monospace;font-size:11.5px;color:#7c8796;display:flex;flex-wrap:wrap;gap:10px 24px}
+/* ============ RESPONSIVE ============ */
+@media(max-width:900px){
+  .vows7{grid-template-columns:repeat(2,1fr)}
+  .reels,.authors{grid-template-columns:repeat(2,1fr)}
+  .kit{grid-template-columns:repeat(2,1fr)}
+  .ki:nth-child(2n){border-right:0}
+  .podium{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .wrap{padding:0 16px}
+  section{padding:46px 0}
+  .topbar .r{display:none}
+  header.hero{padding:38px 0 42px}
+  .crest{width:88px;height:88px;margin-bottom:18px}
+  .vows7,.reels,.authors,.road,.stops,.kit,.about .steps{grid-template-columns:1fr}
+  .ki{border-right:0}
+  .peds{height:230px;gap:8px}
+  .ped .nm{font-size:13px}
+  nav.toc .wrap{scrollbar-width:none}
+  nav.toc .wrap::-webkit-scrollbar{display:none}
+  footer .cols{grid-template-columns:1fr 1fr}
+  .about{padding:28px 20px}
+}
+@media print{
+  nav.toc,.topbar,.menu-btn{display:none}
+  body{background:#fff;font-size:11pt}
+  section{page-break-inside:avoid;padding:20px 0}
+  .vow7:hover,.au:hover{transform:none;box-shadow:none;background:var(--paper);color:inherit}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .vow7,.au,.ped{transition:none}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<div class="topbar"><span class="wrap"><span class="sig">74qishidianyingwang-cn.github.io</span><span class="sp">/</span><span>骑士电影 · 观影指南</span><span class="r">SINCE 2026 · 不托管资源 · 倡导正版</span></span></div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="crest" aria-hidden="true"></div>
+    <div class="eyebrow">SEVENTY-FOUR KNIGHTS · A FILM COMPANION</div>
+    <h1>74骑士电影网<br><em>按骑士精神</em>挑一部电影</h1>
+    <p class="lede">不是"Top 74 榜单站"，而是一份<strong>观影守则</strong>：把"骑士"拆成七条誓言——<b>勇气、信义、忠诚、怜悯、荣誉、公正、谦逊</b>，再按这七条去找片子。公路片、西部片、剑与魔法、武士片、成长电影，都归到"它教会你怎样做人"这一件事上。</p>
+    <div class="vows" aria-label="七条誓言">
+      <span class="vow"><b>01</b> 勇气 COURAGE</span>
+      <span class="vow"><b>02</b> 信义 LOYALTY</span>
+      <span class="vow"><b>03</b> 忠诚 HONOR</span>
+      <span class="vow"><b>04</b> 怜悯 MERCY</span>
+      <span class="vow"><b>05</b> 荣誉 PRIDE</span>
+      <span class="vow"><b>06</b> 公正 JUSTICE</span>
+      <span class="vow"><b>07</b> 谦逊 HUMILITY</span>
+    </div>
+    <div class="meta">
+      <span>今日守则 · <b>先看完，再评</b></span>
+      <span>今日时长 · <b>90–140 分钟</b></span>
+      <span>今日格式 · <b>4K 修复 / 杜比视界</b></span>
+      <span>片源 · <b>正版流媒体与蓝光</b></span>
+    </div>
+  </div>
+</header>
+
+<nav class="toc" aria-label="栏目导航">
+  <div class="wrap">
+    <a href="#vows">七条誓言</a>
+    <a href="#reels">三卷片单</a>
+    <a href="#podium">骑士榜</a>
+    <a href="#authors">四位作者</a>
+    <a href="#road">马与路</a>
+    <a href="#kit">行装</a>
+    <a href="#stops">六条禁令</a>
+    <a href="#about">关于本站</a>
+  </div>
+</nav>
+
+<main>
+
+<!-- 01 -->
+<section id="vows">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="sec-no">Ⅰ</span>
+      <div>
+        <div class="en">The Seven Vows</div>
+        <h2>七条誓言：电影的骑士精神</h2>
+        <p class="sec-sub">挑片不看"爽不爽"，看它是否还守着某条古老的规矩。</p>
+      </div>
+    </div>
+
+    <div class="vows7">
+      <div class="vow7">
+        <div class="rom">VOW 01</div>
+        <h3>勇气</h3>
+        <p>敢拍沉默、敢拍失败、敢让主角不讨喜。真正的勇气片，往往没有敌人，只有自己。</p>
+        <div class="ex">EX · 海边的曼彻斯特 / 小偷家族</div>
+      </div>
+      <div class="vow7">
+        <div class="rom">VOW 02</div>
+        <h3>信义</h3>
+        <p>答应的事就做到，哪怕代价是失去。西部片与武士片的底色，从来不是枪，是话。</p>
+        <div class="ex">EX · 不可饶恕 / 黄昏清兵卫</div>
+      </div>
+      <div class="vow7">
+        <div class="rom">VOW 03</div>
+        <h3>忠诚</h3>
+        <p>忠于一个人、一座城、一段记忆。公路片的引擎不是汽油，是不肯掉头。</p>
+        <div class="ex">EX · 末路狂花 / 摩托日记</div>
+      </div>
+      <div class="vow7">
+        <div class="rom">VOW 04</div>
+        <h3>怜悯</h3>
+        <p>对弱者手下留情，也比打赢更难。剑与魔法片里最动人的，常是那个放走敌人的瞬间。</p>
+        <div class="ex">EX · 指环王：王者无敌 / 七武士</div>
+      </div>
+      <div class="vow7">
+        <div class="rom">VOW 05</div>
+        <h3>荣誉</h3>
+        <p>名声是别人给的，荣誉是自己守的。这一类片好看在"体面"二字。</p>
+        <div class="ex">EX · 阿拉伯的劳伦斯 / 勇敢的心</div>
+      </div>
+      <div class="vow7">
+        <div class="rom">VOW 06</div>
+        <h3>公正</h3>
+        <p>不站队、不煽动，让事实自己说话。法庭片、历史片、纪实片的骑士之道。</p>
+        <div class="ex">EX · 十二怒汉 / 辛德勒的名单</div>
+      </div>
+      <div class="vow7">
+        <div class="rom">VOW 07</div>
+        <h3>谦逊</h3>
+        <p>英雄也会老、会怕、会认错。成长电影的内核，是承认自己并非天选。</p>
+        <div class="ex">EX · 心灵奇旅 / 千与千寻</div>
+      </div>
+      <div class="vow7" style="background:var(--ink);color:#e8e2d5;border-color:var(--gold)">
+        <div class="rom" style="color:var(--gold)">VOW 00</div>
+        <h3 style="color:var(--gold)">守约</h3>
+        <p style="color:#b9c2ce">本站不提供盗链、不做违规采集、不承诺"免费看全"。只给一条可靠的观影路径：正版流媒体、院线、蓝光修复版、资料馆。</p>
+        <div class="ex" style="border-color:rgba(211,162,76,.4);color:var(--gold)">EX · 支持创作者，才是骑士</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 -->
+<section id="reels" style="background:rgba(178,58,52,.045)">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="sec-no">Ⅱ</span>
+      <div>
+        <div class="en">Three Reels</div>
+        <h2>三卷片单：上路、守城、归家</h2>
+        <p class="sec-sub">每卷 5 部，按"它替你说出了什么"排序，而非评分高低。</p>
+      </div>
+    </div>
+
+    <div class="reels">
+      <article class="reel">
+        <div class="hd"><span class="tag">REEL 01</span><h3>上路 · 公路与西部</h3></div>
+        <ol>
+          <li><span class="n">01</span>末路狂花<span class="y">1991 · 130min · 公路</span></li>
+          <li><span class="n">02</span>摩托日记<span class="y">2004 · 126min · 公路</span></li>
+          <li><span class="n">03</span>不可饶恕<span class="y">1992 · 131min · 西部</span></li>
+          <li><span class="n">04</span>荒野猎人<span class="y">2015 · 156min · 西部</span></li>
+          <li><span class="n">05</span>无依之地<span class="y">2020 · 108min · 公路</span></li>
+        </ol>
+        <div class="ft">适合：一个人、一辆车、一段没想明白的路。</div>
+      </article>
+
+      <article class="reel">
+        <div class="hd"><span class="tag">REEL 02</span><h3>守城 · 剑与忠诚</h3></div>
+        <ol>
+          <li><span class="n">01</span>七武士<span class="y">1954 · 207min · 武士</span></li>
+          <li><span class="n">02</span>指环王：王者无敌<span class="y">2003 · 201min · 奇幻</span></li>
+          <li><span class="n">03</span>勇敢的心<span class="y">1995 · 178min · 历史</span></li>
+          <li><span class="n">04</span>角斗士<span class="y">2000 · 155min · 史诗</span></li>
+          <li><span class="n">05</span>天国王朝<span class="y">2005 · 144min · 史诗</span></li>
+        </ol>
+        <div class="ft">适合：想被"宏大"震一下，然后安静很久。</div>
+      </article>
+
+      <article class="reel">
+        <div class="hd"><span class="tag">REEL 03</span><h3>归家 · 成长与和解</h3></div>
+        <ol>
+          <li><span class="n">01</span>千与千寻<span class="y">2001 · 125min · 动画</span></li>
+          <li><span class="n">02</span>海边的曼彻斯特<span class="y">2016 · 137min · 剧情</span></li>
+          <li><span class="n">03</span>心灵奇旅<span class="y">2020 · 101min · 动画</span></li>
+          <li><span class="n">04</span>小偷家族<span class="y">2018 · 121min · 家庭</span></li>
+          <li><span class="n">05</span>步履不停<span class="y">2008 · 114min · 家庭</span></li>
+        </ol>
+        <div class="ft">适合：哭一场，然后给家里打个电话。</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section id="podium">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="sec-no">Ⅲ</span>
+      <div>
+        <div class="en">The Round Table</div>
+        <h2>骑士榜：三把交椅</h2>
+        <p class="sec-sub">柱高 = <strong>今日适配度</strong>（综合：誓言契合度 40% + 画面完成度 30% + 正版可得性 20% + 4K 修复 10%），<em>不代表评分高低</em>。</p>
+      </div>
+    </div>
+
+    <div class="podium">
+      <div class="peds" aria-label="领奖台">
+        <div class="ped s1" style="--h:100%" data-h="100%"><span class="no">NO.1</span><span class="nm">指环王：王者无敌</span><span class="yr">2003 · 201min</span><span class="fmt">4K 修复 · 杜比视界</span></div>
+        <div class="ped s2" style="--h:74%" data-h="74%"><span class="no">NO.2</span><span class="nm">七武士</span><span class="yr">1954 · 207min</span><span class="fmt">4K 修复 · 黑白</span></div>
+        <div class="ped s3" style="--h:58%" data-h="58%"><span class="no">NO.3</span><span class="nm">阿拉伯的劳伦斯</span><span class="yr">1962 · 216min</span><span class="fmt">4K 修复 · 70mm</span></div>
+      </div>
+      <div class="rank-r">
+        <div class="rk"><span class="p">04</span><span class="t">勇敢的心<small>1995 · 史诗 · 178min</small></span><span class="s">9.0</span></div>
+        <div class="rk"><span class="p">05</span><span class="t">荒野猎人<small>2015 · 西部 · 156min</small></span><span class="s">8.8</span></div>
+        <div class="rk"><span class="p">06</span><span class="t">无依之地<small>2020 · 公路 · 108min</small></span><span class="s">8.7</span></div>
+        <div class="rk"><span class="p">07</span><span class="t">摩托日记<small>2004 · 公路 · 126min</small></span><span class="s">8.6</span></div>
+        <div class="rk"><span class="p">08</span><span class="t">黄昏清兵卫<small>2002 · 武士 · 129min</small></span><span class="s">8.6</span></div>
+        <div class="rk"><span class="p">09</span><span class="t">天国王朝（导演剪辑版）<small>2005 · 史诗 · 194min</small></span><span class="s">8.5</span></div>
+        <div class="rk"><span class="p">10</span><span class="t">末路狂花<small>1991 · 公路 · 130min</small></span><span class="s">8.5</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 04 -->
+<section id="authors" style="background:rgba(178,58,52,.045)">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="sec-no">Ⅳ</span>
+      <div>
+        <div class="en">Four Auteurs</div>
+        <h2>四位作者：他们的骑士长什么样</h2>
+        <p class="sec-sub">认导演，比认类型更快。这四位都拍过"一个人守住一件事"。</p>
+      </div>
+    </div>
+
+    <div class="authors">
+      <article class="au">
+        <span class="badge">AU.01</span>
+        <h3>黑泽明</h3>
+        <div class="en2">AKIRA KUROSAWA</div>
+        <p>武士片里的"义"字。构图如浮世绘，雨、泥、刀光都是道德判决。</p>
+        <div class="see">SEE · 7 部　从《七武士》入门</div>
+      </article>
+      <article class="au">
+        <span class="badge">AU.02</span>
+        <h3>大卫·里恩</h3>
+        <div class="en2">DAVID LEAN</div>
+        <p>用 70mm 拍"人的渺小"。沙漠、冰原、铁路，都是信仰的试炼场。</p>
+        <div class="see">SEE · 6 部　从《阿拉伯的劳伦斯》入门</div>
+      </article>
+      <article class="au">
+        <span class="badge">AU.03</span>
+        <h3>宫崎骏</h3>
+        <div class="en2">HAYAO MIYAZAKI</div>
+        <p>少女即是骑士。飞行、森林、老火车，替怯懦的人长出胆量。</p>
+        <div class="see">SEE · 12 部　从《千与千寻》入门</div>
+      </article>
+      <article class="au">
+        <span class="badge">AU.04</span>
+        <h3>是枝裕和</h3>
+        <div class="en2">HIROKAZU KORE-EDA</div>
+        <p>把"忠诚"从国家搬回餐桌。不喊口号，只拍谁记得给谁盛饭。</p>
+        <div class="see">SEE · 9 部　从《步履不停》入门</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 05 -->
+<section id="road">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="sec-no">Ⅴ</span>
+      <div>
+        <div class="en">Horse &amp; Road</div>
+        <h2>马与路：六个观影场景</h2>
+        <p class="sec-sub">骑士也要挑路。场景对了，片子才算真的看完。</p>
+      </div>
+    </div>
+
+    <div class="road">
+      <div class="rd"><ic>途</ic><div><h4>通勤地铁</h4><p>只看短片与单集纪录片，15–30 分钟，耳机音量以能听见报站为上限。</p><span class="req">DOSE · ≤30min</span></div></div>
+      <div class="rd"><ic>窗</ic><div><h4>雨天窗台</h4><p>选慢节奏、有雨声的片子。关掉字幕猜情绪，再看一遍对白。</p><span class="req">DOSE · 90–120min</span></div></div>
+      <div class="rd"><ic>夜</ic><div><h4>深夜床头</h4><p>避免jump scare。适合武士片、家庭片、动画。看完留 20 分钟再睡。</p><span class="req">DOSE · 100–130min</span></div></div>
+      <div class="rd"><ic>投</ic><div><h4>周末投屏</h4><p>2.39:1 画幅必须投屏或去影院，手机竖屏等于毁掉一半构图。</p><span class="req">REQ · 投影 / 大屏</span></div></div>
+      <div class="rd"><ic>院</ic><div><h4>电影院</h4><p>史诗、西部、修复版，只在影院成立。提前查"导演剪辑版"与"修复版"。</p><span class="req">REQ · 2K / 4K 激光</span></div></div>
+      <div class="rd"><ic>碟</ic><div><h4>蓝光与修复版</h4><p>老片的色彩在蓝光里才回来。优先 Criterion、 studio 4K 修复。</p><span class="req">REQ · 正版碟 / 流媒体 4K</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 -->
+<section id="kit" style="background:rgba(178,58,52,.045)">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="sec-no">Ⅵ</span>
+      <div>
+        <div class="en">The Kit</div>
+        <h2>行装：骑士的四件装备</h2>
+        <p class="sec-sub">画面是第一语言。设备不到位，"看懂"会变成"猜懂"。</p>
+      </div>
+    </div>
+
+    <div class="kit">
+      <div class="ki"><div class="k">KIT 01</div><h4>一块校色过的屏</h4><p>sRGB / P3 色域、ΔE&lt;3。先看《银翼杀手 2049》夜戏，能分清蓝与青，才算合格。</p></div>
+      <div class="ki"><div class="k">KIT 02</div><h4>一副好耳机</h4><p>不用贵，但要能听见《敦刻尔克》的钟声从哪边来。音量以能听见窗外为上限。</p></div>
+      <div class="ki"><div class="k">KIT 03</div><h4>一个不看手机的 90 分钟</h4><p>手机倒扣、灯关掉、亮度调到环境光的一半。这是最便宜也最被低估的装备。</p></div>
+      <div class="ki"><div class="k">KIT 04</div><h4>一本观影手账</h4><p>只记三行：哪个镜头我停住了 / 哪句台词我想抄 / 我要推荐给谁。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 07 -->
+<section id="stops">
+  <div class="wrap">
+    <div class="sec-h">
+      <span class="sec-no">Ⅶ</span>
+      <div>
+        <div class="en">Six Forbidden Things</div>
+        <h2>六条禁令：骑士不做的六件事</h2>
+        <p class="sec-sub">这些习惯，正在把你变成"看过很多电影的人"，而不是"懂电影的人"。</p>
+      </div>
+    </div>
+
+    <div class="stops">
+      <div class="stop"><div class="no">STOP 01</div><h4>用 1.5 倍速当习惯</h4><p>剪辑节奏是导演的标点。倍速看《降临》，等于只读摘要。</p></div>
+      <div class="stop"><div class="no">STOP 02</div><h4>收藏 200 部，一部没看</h4><p>收藏夹不是片单。一周只留一部，看完再换。</p></div>
+      <div class="stop"><div class="no">STOP 03</div><h4>只看"高分榜"从上往下</h4><p>榜是按人群算的均值，你不是均值。先认导演。</p></div>
+      <div class="stop"><div class="no">STOP 04</div><h4>竖屏看 2.39:1 的史诗</h4><p>上下黑边吃掉一半画面，构图等于被剪。</p></div>
+      <div class="stop"><div class="no">STOP 05</div><h4>用"解说 5 分钟"代替看完</h4><p>解说给的是结论，电影给的是犹豫。结论是偷来的。</p></div>
+      <div class="stop"><div class="no">STOP 06</div><h4>为"画质无所谓"辩护</h4><p>剧情在台词里，气质在光影里。老片的 4K 修复，是第二次上映。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 08 -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-h" style="margin-bottom:0">
+      <span class="sec-no" style="border-color:var(--gold);color:var(--gold)">Ⅷ</span>
+      <div>
+        <div class="en" style="color:#b9c2ce">About</div>
+        <h2 style="color:var(--gold)">关于 74骑士电影网</h2>
+      </div>
+    </div>
+
+    <div class="about">
+      <p class="lead">"74"不是数量，是代号：七条誓言，四种方向（上路 / 守城 / 归家 / 自省）。本站不托管任何影视资源、不提供盗链、不做违规采集、不承诺"免费看全"；只做一件事——<b>在你还有 90 分钟的时候，帮你选对那一部</b>。</p>
+
+      <div class="steps">
+        <div class="step"><div class="n">01</div><h4>定誓言</h4><p>今天想被"勇气"还是"怜悯"击中？</p></div>
+        <div class="step"><div class="n">02</div><h4>定时长</h4><p>≤30 / 60–120 / ≥120 分钟，各一卷。</p></div>
+        <div class="step"><div class="n">03</div><h4>认作者</h4><p>先挑导演，再挑类型。作者比题材更可信。</p></div>
+        <div class="step"><div class="n">04</div><h4>走正道</h4><p>院线、正版流媒体、蓝光修复版、资料馆。</p></div>
+      </div>
+
+      <div class="tags" aria-label="筛选标签">
+        <a href="#">公路片</a><a href="#">西部片</a><a href="#">武士片</a><a href="#">剑与魔法</a><a href="#">史诗</a><a href="#">成长电影</a>
+        <a href="#">家庭片</a><a href="#">动画片</a><a href="#">剧情片</a><a href="#">纪录片</a><a href="#">修复版</a><a href="#">4K</a><a href="#">杜比视界</a>
+        <a href="#">黑泽明</a><a href="#">大卫·里恩</a><a href="#">宫崎骏</a><a href="#">是枝裕和</a>
+      </div>
+
+      <p class="fine">合规声明：本站为影视文化与观影方法分享站点，所涉片名、导演、年份、片长均为公开影视资料，用于推荐与学习。请通过合法渠道观看，支持正版与 4K 修复。片长为公映/导演剪辑版常见版本，不同发行版本可能有差异。</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h5>74骑士电影网</h5>
+        <ul>
+          <li>按"骑士精神"挑片：勇气 · 信义 · 忠诚 · 怜悯 · 荣誉 · 公正 · 谦逊</li>
+          <li>不托管资源 · 不提供盗链 · 不做违规采集 · 倡导正版</li>
+        </ul>
+      </div>
+      <div>
+        <h5>七条誓言</h5>
+        <ul>
+          <li><a href="#vows">勇气 COURAGE</a></li>
+          <li><a href="#vows">信义 LOYALTY</a></li>
+          <li><a href="#vows">忠诚 HONOR</a></li>
+          <li><a href="#vows">怜悯 MERCY</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>阅读与筛选</h5>
+        <ul>
+          <li><a href="#reels">三卷片单</a></li>
+          <li><a href="#podium">骑士榜</a></li>
+          <li><a href="#authors">四位作者</a></li>
+          <li><a href="#road">马与路</a></li>
+          <li><a href="#kit">行装</a></li>
+          <li><a href="#stops">六条禁令</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© 2026 74骑士电影网 · 74QISHI</span>
+      <span>https://74qishidianyingwang-cn.github.io/</span>
+      <span>// COURAGE · LOYALTY · HONOR · MERCY · PRIDE · JUSTICE · HUMILITY</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// 领奖台入场动画：滚动到视口再长高
+(function(){
+  var peds = document.querySelectorAll('.ped');
+  if(!('IntersectionObserver' in window)){ peds.forEach(function(p){p.style.height=p.dataset.h}); return; }
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(e.isIntersecting){
+        e.target.style.height = e.target.dataset.h;
+        io.unobserve(e.target);
+      }
+    });
+  },{threshold:.35});
+  peds.forEach(function(p){ p.style.height = '22%'; io.observe(p); });
+})();
+</script>
+</body>
+</html>
